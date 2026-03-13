@@ -1,15 +1,15 @@
 public class Filial {
-    private String nome;
-    private Gerente gerente;
-    private Telefone telefone;
+    String nome;
+    String Gerente;
+    String Telefone;
 
     public Filial(String nome, Gerente gerente, Telefone telefone) {
         this.nome = nome;
-        this.gerente = gerente;
-        this.telefone = telefone;
+        this.Gerente = Gerente;
+        this.Telefone = Telefone;
     }
 
     public String getNome() {return nome; }
-    public Gerente gerente() {return gerente; }
-    public Telefone telefone() {return telefone; }
+    public String Gerente() {return Gerente; }
+    public String Telefone() {return Telefone; }
 }

@@ -1,6 +1,6 @@
 public class Telefone {
-    private String ddd;
-    private String numero;
+    String ddd;
+    String numero;
 
     public Telefone(String ddd, String numero) {
         this.ddd = ddd;
